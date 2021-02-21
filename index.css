@@ -1,0 +1,73 @@
+html{
+    font-size: 120%;
+}
+
+body{
+  background-image: url();
+}
+
+body.Rain{
+  background-image: url('Rain.webp');
+}
+
+body.Clear{
+    background-image: url('Clear.webp');
+}
+
+body.Clouds{
+    background-image: url('Clouds.webp');
+}
+#city{
+    color: red;
+    font-weight: bold;
+    font-size: 150%;
+}
+.cityBox{
+    padding:30px;
+    margin:30px;
+    border: 2px solid red;
+}
+
+#weatherTop{
+    border-bottom: 1px solid grey;
+    align-items: center;
+    margin: 50px 100px;
+    
+}
+
+#weather{
+    margin: 50px;
+}
+
+.wrap.Clear{
+    width: 100%;
+    height: 100%;
+    margin-top: 16%;
+    border:2px solid rgb(168, 157, 226);
+    background-color: rgba(243, 171, 160, 0.8);
+}
+
+.wrap.Clouds{
+    width: 100%;
+    height: 100%;
+    margin-top: 16%;
+    border:2px solid rgb(168, 157, 226);
+    background-color:rgb(182, 171, 236, 0.8);
+}
+
+.wrap.Rain{
+    width: 100%;
+    height: 100%;
+    margin-top: 16%;
+    border:2px solid rgb(168, 157, 226);
+    background-color: rgb(175, 182, 174, 0.8)
+}
+
+#citywrap{
+    margin: 50px 100px;
+}
+
+img{
+    width: 70px;
+    height:  70px;
+}
